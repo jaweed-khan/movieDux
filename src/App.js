@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import './styles.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-          <h1>Welcome to Movie Dux</h1>
-      </header>
+
+        <div className='Container'>
+            <Header></Header>
+        </div>
+
       <footer className="footer">
           <p className="footer">Footer Content goes here</p>
       </footer>
